@@ -23,7 +23,7 @@ public class Member {
     @JoinColumn(name = "team_id")
     private Team team;
 
-    public Member(Long id, String username) {
+    public Member(String username) {
         this.id = id;
         this.username = username;
     }
